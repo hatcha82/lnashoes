@@ -6,11 +6,11 @@ if (!defined('_EYOOM_')) exit;
 ?>
 <style>
 /*---------- 페이지 로더 ----------*/
-.page-loader {position:fixed;top:0;left:0;z-index:9999;width:100%;height:100%;background: rgb(252,255,244);
-background: -moz-radial-gradient(center, ellipse cover, rgba(252,255,244,1) 0%, rgba(223,229,215,1) 40%, rgba(179,190,173,1) 100%);
+.page-loader {position:fixed;top:0;left:0;z-index:9999;width:100%;height:100%;background: #fff;
+/* background: -moz-radial-gradient(center, ellipse cover, rgba(252,255,244,1) 0%, rgba(223,229,215,1) 40%, rgba(179,190,173,1) 100%);
 background: -webkit-radial-gradient(center, ellipse cover, rgba(252,255,244,1) 0%,rgba(223,229,215,1) 40%,rgba(179,190,173,1) 100%);
 background: radial-gradient(ellipse at center, rgba(252,255,244,1) 0%,rgba(223,229,215,1) 40%,rgba(179,190,173,1) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfff4', endColorstr='#b3bead',GradientType=1 );}
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfff4', endColorstr='#b3bead',GradientType=1 );} */
 .page-loader .logo-loader {position:absolute;top:50%;left:50%;transform:translate(-50%, -50%)}
 .page-loader .logo-loader img {max-height:70px;width:auto}
 .page-loader .logo-loader:before, .page-loader .logo-loader:after {content:"";position:absolute;bottom:-20px;left:0;height:1px}

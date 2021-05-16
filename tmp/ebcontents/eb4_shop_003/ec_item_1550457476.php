@@ -1,0 +1,6 @@
+<?php
+if (!defined('_EYOOM_')) exit;
+$ec_item = array(
+	"0" => array("ci_no" => "568","ec_code" => "1550457476","ci_theme" => "eb4_shop_003","ci_state" => "1","ci_sort" => "1","ci_subject" => "a:2:{i:0;s:42:\"데일리 웨어는 베이직 스타일로\";i:1;s:12:\"BASIC SHIRTS\";}","ci_text" => "a:2:{i:0;s:0:\"\";i:1;s:0:\"\";}","ci_content" => "","ci_link" => "a:1:{i:0;s:23:\"http://theme4.eyoom.net\";}","ci_target" => "a:1:{i:0;s:5:\"_self\";}","ci_img" => "a:2:{i:0;s:36:\"e7e9cc4b85c1a52f710dbc61932cb4bb.jpg\";i:1;s:36:\"12b06e060d0b3315ce6ebcc23b7febf3.jpg\";}","ci_period" => "1","ci_start" => "","ci_end" => "","ci_view_level" => "1","ci_regdt" => "2019-02-22 14:28:39"),
+	"1" => array("ci_no" => "569","ec_code" => "1550457476","ci_theme" => "eb4_shop_003","ci_state" => "1","ci_sort" => "2","ci_subject" => "a:2:{i:0;s:32:\"따사로운 봄을 맞이하는\";i:1;s:27:\"SEASON OFF <span>70%</span>\";}","ci_text" => "a:2:{i:0;s:0:\"\";i:1;s:0:\"\";}","ci_content" => "","ci_link" => "a:1:{i:0;s:23:\"http://theme4.eyoom.net\";}","ci_target" => "a:1:{i:0;s:5:\"_self\";}","ci_img" => "a:2:{i:0;s:36:\"871925039beef17f9be074aaf993a05b.jpg\";i:1;s:36:\"79eef6c362dcd2ab6fb7793a51355018.jpg\";}","ci_period" => "1","ci_start" => "","ci_end" => "","ci_view_level" => "1","ci_regdt" => "2019-02-22 14:29:20"),
+);

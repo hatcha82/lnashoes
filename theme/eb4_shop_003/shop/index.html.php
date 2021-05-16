@@ -6,7 +6,7 @@ if (!defined('_EYOOM_')) exit;
 ?>
 <style>
 /*---------- 페이지 로더 ----------*/
-.page-loader {position:fixed;top:0;left:0;z-index:9999;width:100%;height:100%;background: #fff;
+.page-loader {position:fixed;top:0;left:0;z-index:9999;width:100%;height:100%;background: #fff;}
 /* background: -moz-radial-gradient(center, ellipse cover, rgba(252,255,244,1) 0%, rgba(223,229,215,1) 40%, rgba(179,190,173,1) 100%);
 background: -webkit-radial-gradient(center, ellipse cover, rgba(252,255,244,1) 0%,rgba(223,229,215,1) 40%,rgba(179,190,173,1) 100%);
 background: radial-gradient(ellipse at center, rgba(252,255,244,1) 0%,rgba(223,229,215,1) 40%,rgba(179,190,173,1) 100%);

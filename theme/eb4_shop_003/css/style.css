@@ -27,8 +27,8 @@ ul, ol {margin-bottom:0}
 .topbar-left .theme-link {display:flex;justify-content:flex-start}
 .topbar-left .theme-link li a {display:block;padding:0 10px;line-height:35px;font-size:11px;color:#999;border-right:1px solid #4C4C4C;transition:all .3s ease}
 .topbar-left .theme-link li:first-child a {border-left:1px solid #4C4C4C}
-.topbar-left .theme-link li a:hover {color:#bbb;background:#2b2b2b}
-.topbar-left .theme-link li.active a {background:#F2A23A;color:#fff}
+.topbar-left .theme-link li a:hover {color:#fff;background:#53c87d}
+.topbar-left .theme-link li.active a {background:#ec766c;color:#fff}
 
 .topbar-center {float:left;width:50%}
 .topbar-center .goods-list {display:flex;justify-content:center;width:100%}

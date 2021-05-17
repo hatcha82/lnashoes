@@ -42,7 +42,7 @@ if (!defined('_EYOOM_')) exit;
 
 <div class="list-latest">
     <div class="latest-title">
-        <h2><a href="<?php echo $eb_latest['li_link']; ?>"><?php echo $el_master['el_subject']; ?></a></h2>
+        <h2><a href="<?php echo $el_master['el_link']; ?>"><?php echo $el_master['el_subject']; ?></a></h2>
     </div>
     <?php if (is_array($el_item)) { foreach ($el_item as $k => $eb_latest) { ?>
     <ul class="list-unstyled">

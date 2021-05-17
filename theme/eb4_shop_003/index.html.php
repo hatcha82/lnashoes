@@ -49,9 +49,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfff4', end
 </div>
 
 <?php /* ---------- 메인 슬라이더 ---------- */ ?>
-<section class="section section-01">
-    <?php echo eb_slider('1548224900'); ?>
-</section>
+
 
 <section class="section section-02">
     <div class="container">

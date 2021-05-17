@@ -103,7 +103,7 @@ add_stylesheet('<link rel="stylesheet" href="'.EYOOM_THEME_URL.'/plugins/slick/s
             <?php foreach ($slider as $k => $item) { ?>            
             <div class="ebslider-main-item">
                 <div class="ebslider-main-image">
-                    <img src="<?php echo $item['src_1']?>">
+                <a href="<?php echo $item['href_1']; ?>" target="<?php echo $item['target_1']; ?>"> <img src="<?php echo $item['src_1']?>"></a>
                 </div>
                 <div class="ebslider-main-caption">
                     <div class="ebslider-main-caption-inner">

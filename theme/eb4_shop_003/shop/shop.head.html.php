@@ -64,13 +64,13 @@ $item_view = 'zoom';
                     </ul>
                 </div>
                 <div class="topbar-center">
-                    <ul class="list-unstyled goods-list">
+                    <!-- <ul class="list-unstyled goods-list">
                         <li><a href="<?php echo shop_type_url(1); ?>">히트상품</a></li>
                         <li><a href="<?php echo shop_type_url(2); ?>">추천상품</a></li>
                         <li><a href="<?php echo shop_type_url(3); ?>">최신상품</a></li>
                         <li><a href="<?php echo shop_type_url(4); ?>">인기상품</a></li>
                         <li><a href="<?php echo shop_type_url(5); ?>">할인상품</a></li>
-                    </ul>
+                    </ul> -->
                 </div>
                 <div class="topbar-right">
                     <ul class="list-unstyled login-list">
@@ -229,7 +229,7 @@ $item_view = 'zoom';
                             <?php } ?>
                             </ul>
                             
-                            <div class="goods-list">
+                            <!-- <div class="goods-list">
                                 <h5>상품 유형</h5>
                                 <ul class="list-unstyled">
                                     <li><a href="<?php echo shop_type_url(1); ?>">히트상품</a></li>
@@ -238,7 +238,7 @@ $item_view = 'zoom';
                                     <li><a href="<?php echo shop_type_url(4); ?>">인기상품</a></li>
                                     <li><a href="<?php echo shop_type_url(5); ?>">할인상품</a></li>
                                 </ul>
-                            </div>
+                            </div> -->
                         </div>
                     </nav>
                 </div>

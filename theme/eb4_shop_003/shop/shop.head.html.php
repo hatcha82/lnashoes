@@ -61,6 +61,9 @@ $item_view = 'zoom';
                     <ul class="list-unstyled theme-link">
                         <li class="active"><a href="<?php echo G5_SHOP_URL; ?>">쇼핑몰</a></li>
                         <li><a href="<?php echo G5_URL; ?>/community.php?theme=eb4_shop_003">커뮤니티</a></li>
+                        <?php if ($is_member) { // 회원일 경우 ?>
+                        <li class=""><a href="/bbs/board.php?bo_table=contest">공모전</a></li>
+                        <?php } ?>
                     </ul>
                 </div>
                 <div class="topbar-center">

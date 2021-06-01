@@ -33,7 +33,7 @@ add_stylesheet('<link rel="stylesheet" href="'.G5_JS_URL.'/owlcarousel/owl.carou
     	<div class="inner">
             <?php if(defined('G5_COMMUNITY_USE') && G5_COMMUNITY_USE) { ?>
     		<ul id="hd_define">
-    			<li><a href="<?php echo G5_URL ?>/">커뮤니티</a></li>
+    			<li><a href="<?php echo G5_URL ?>/community.php?theme=eb4_shop_003">커뮤니티</a></li>
     			<li class="active"><a href="<?php echo G5_SHOP_URL ?>/">쇼핑몰</a></li>
     		</ul>
             <?php } ?>

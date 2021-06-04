@@ -51,6 +51,17 @@ if (!defined('_EYOOM_')) exit;
 .social-link-wrap .social-link-list li.social-link-instagram a:hover {background:#AF41A3}
 .social-link-wrap .social-link-list li.social-link-line a:hover {background:#53B535}
 .social-link-wrap .social-link-list li.social-link-youtube a:hover {background:#EA3323}
+.fa-naver:before {
+    font-family: Arial; /* your font family here! */
+    font-weight: bold;    
+    content: 'N';
+}
+.fa-kakako:before {
+    font-family: Arial; /* your font family here! */
+    font-weight: bold;    
+    content: "'";
+}
+
 </style>
 
 <div class="social-link-wrap">
@@ -67,11 +78,13 @@ if (!defined('_EYOOM_')) exit;
 
     <?php if ($ec_default) { ?>
     <ul class="social-link-list">
-        <li class="social-link-facebook"><a href=""><i class="fab fa-facebook"></i></a></li>
-        <li class="social-link-twitter"><a href=""><i class="fab fa-twitter"></i></a></li>
-        <li class="social-link-instagram"><a href=""><i class="fab fa-instagram"></i></a></li>
-        <li class="social-link-line"><a href=""><i class="fab fa-line"></i></a></li>
-        <li class="social-link-youtube"><a href=""><i class="fab fa-youtube"></i></a></li>
+
+
+        <li class="social-link-facebook"><a href="https://www.facebook.com/lnakorea"><i class="fab fa-facebook"></i></a></li>
+        <li class="social-link-line"><a href="https://blog.naver.com/lnamall"><i class="fab fa-naver"></i></a></li>
+        <li class="social-link-instagram"><a href="https://www.instagram.com/lnakorea/"><i class="fab fa-instagram"></i></a></li>
+        <!-- <li class="social-link-kakao"><a href="https://story.kakao.com/ch/lnakorea"><i class="fab fa-kakako"></i></a></li> -->
+        <!-- <li class="social-link-youtube"><a href=""><i class="fab fa-youtube"></i></a></li> -->
     </ul>
     <?php } ?>
 </div>

@@ -163,6 +163,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfff4', end
     //     </div>"
 ?>
 
+<?php /* ---------- 이벤트 - 게시판 > 이벤트게시판에서 글을 등록합니다. ---------- */ ?>
+<section class="section section-08">
+    <div class="container">
+    <?php echo eb_latest('1623652859'); ?>
+    </div>
+</section>
+
 <?php /* ---------- 이벤트 - 쇼핑몰현황/기타 > 이벤트관리에서 상품 등록합니다. ---------- */ ?>
 <section class="section section-08 shop-section-event">
     <div class="container">

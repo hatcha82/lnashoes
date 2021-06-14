@@ -152,6 +152,6 @@ if (!defined('_EYOOM_')) exit;
         </div>
     </div>
     <?php } ?>
-    <p class="text-center font-size-13 color-grey margin-top-10"><i class="fas fa-exclamation-circle"></i> 등록된 이벤트가 없습니다.</p>
+    <!-- <p class="text-center font-size-13 color-grey margin-top-10"><i class="fas fa-exclamation-circle"></i> 등록된 이벤트가 없습니다.</p> -->
 </div>
 <?php } ?>

@@ -50,8 +50,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfff4', end
             <img src="<?php echo EYOOM_THEME_URL; ?>/image/site_logo.jpg" class="title-logo-image" alt="<?php echo $config['cf_title']; ?>">
             <?php } ?>
         </div>
-    </div>
-    
+    </div>    
     <?php }?>
 <?php }?>
 

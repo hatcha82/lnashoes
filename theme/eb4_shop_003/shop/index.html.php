@@ -39,15 +39,21 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfff4', end
 </style>
 
 <?php /* 페이지 로더 */ ?>
-<div class="page-loader">
-    <div class="logo-loader">
-        <?php if (file_exists($top_logo) && !is_dir($top_logo)) { ?>
-        <img src="<?php echo $logo_src['top']; ?>" class="title-logo-image" alt="<?php echo $config['cf_title']; ?>">
-        <?php } else { ?>
-        <img src="<?php echo EYOOM_THEME_URL; ?>/image/site_logo.png" class="title-logo-image" alt="<?php echo $config['cf_title']; ?>">
-        <?php } ?>
+
+<?php if (   defined('_INDEX_')  ) {  /*  첫 페이지만 실행 */ ?>     
+    <?php if ( !$is_member) {  /*  로그인안한경우만 */ ?>    
+    <div class="page-loader">
+        <div class="logo-loader">
+            <?php if (file_exists($top_logo) && !is_dir($top_logo)) { ?>
+            <img src="<?php echo $logo_src['top']; ?>" class="title-logo-image" alt="<?php echo $config['cf_title']; ?>">
+            <?php } else { ?>
+            <img src="<?php echo EYOOM_THEME_URL; ?>/image/site_logo.jpg" class="title-logo-image" alt="<?php echo $config['cf_title']; ?>">
+            <?php } ?>
+        </div>
     </div>
-</div>
+    
+    <?php }?>
+<?php }?>
 
 <?php /* ---------- EB Slider - 메인 슬라이더 ---------- */ ?>
 <section class="section section-01">

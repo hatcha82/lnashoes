@@ -21,7 +21,7 @@ $logo = 'image';
 /**
  * 상품 이미지 미리보기 종류 : 'zoom' || 'slider'
  */
-$item_view = 'zoom';
+$item_view = 'slider';
 ?>
 
 <?php if (!$wmode) { ?>

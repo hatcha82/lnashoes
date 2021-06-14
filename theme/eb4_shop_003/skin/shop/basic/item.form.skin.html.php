@@ -400,12 +400,12 @@ add_stylesheet('<link rel="stylesheet" href="'.EYOOM_THEME_URL.'/plugins/fotoram
 <script>
 $(document).ready(function(){
     <?php if (!G5_IS_MOBILE) { // PC버전의 경우에만 줌적용 ?>
-    // $('.elevaterzoom_item img').elevateZoom({
-    //     zoomWindowWidth: 534,
-    //     zoomWindowHeight: 534,
-    //     borderSize: 0,
-    //     borderColour: "#000"
-    // });
+    $('.elevaterzoom_item img').elevateZoom({
+        zoomWindowWidth: 534,
+        zoomWindowHeight: 534,
+        borderSize: 0,
+        borderColour: "#000"
+    });
     <?php } ?>
     $(function(){
         // 상품이미지 첫번째 링크

@@ -109,25 +109,25 @@ ul, ol {margin-bottom:0}
 
 /* footer */
 .footer {background-size:cover;background-position:center}
-.footer-inner {padding:45px 0;background:rgba(60, 60, 60, 0.80)}
+.footer-inner {padding:45px 0;background:rgba(249, 249, 249, 0.80)}
 /* 푸터 로고 */
 .footer-logo {position:relative;margin-bottom:30px}
 .footer-logo h1 {margin:0}
-.footer-logo h1 a span {line-height:50px;font-size:24px;font-weight:700;color:#eee}
+.footer-logo h1 a span {line-height:50px;font-size:24px;font-weight:700;color:#000}
 .footer-logo h1 a img {max-height:50px;width:auto}
 /* 푸터 정보 */
-.footer-info {position:relative;font-size:12px;color:#bbb}
-.footer-info a {color:#F2A23A}
-.footer-info a:hover {color:#fff}
-.cs-phone {margin-top:20px;font-size:36px;line-height:36px;font-weight:700;color:#F2A23A}
-.cs-phone i {color:#ddd}
+.footer-info {position:relative;font-size:12px;color:#666}
+.footer-info a {color:#e63c2d}
+.footer-info a:hover {color:#01af40}
+.cs-phone {margin-top:20px;font-size:36px;line-height:36px;font-weight:700;color:#e63c2d}
+.cs-phone i {color:#666}
 
 /* 푸터 메뉴 */
-.footer-box h4 {margin:0 0 30px;font-size:20px;font-weight:700;color:#eee}
+.footer-box h4 {margin:0 0 30px;font-size:20px;font-weight:700;color:#000000}
 .footer-box ul li {margin-bottom:8px}
 .footer-box ul li:last-child {margin-bottom:0}
-.footer-box ul li a {color:#bbb;transition:all .3s ease}
-.footer-box ul li a:hover {color:#eee}
+.footer-box ul li a {color:#666;transition:all .3s ease}
+.footer-box ul li a:hover {color:#bbb}
 
 /* 카피라이트 */
 .copyright {padding:10px 0;background:rgba(43, 43, 43, 0.95);color:#909090;text-align:center}

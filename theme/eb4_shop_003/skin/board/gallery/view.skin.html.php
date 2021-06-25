@@ -708,63 +708,63 @@ function board_move(href) {
 }
 
 $(function() {
-    $('.board-view-file-conts img').parent().attr('class', 'view-img-popup').removeAttr('target');
-    $('.view-img-popup').each(function() {
-        var dataSource = $(this).attr('href');
-        $(this).attr('data-source', dataSource);
-    });
+    // $('.board-view-file-conts img').parent().attr('class', 'view-img-popup').removeAttr('target');
+    // $('.view-img-popup').each(function() {
+    //     var dataSource = $(this).attr('href');
+    //     $(this).attr('data-source', dataSource);
+    // });
     $('.board-view-file-conts img').each(function() {
         var imgURL = $(this).attr('src');
         $(this).parent().attr('href', imgURL);
     });
-    $('.view-img-popup').magnificPopup({
-        type: 'image',
-        closeOnContentClick: true,
-        mainClass: 'mfp-img-mobile',
-        image: {
-            verticalFit: true,
-            titleSrc: function(item) {
-                return '&middot; <a class="image-source-link" href="'+item.el.attr('data-source')+'" target="_blank">원본 이미지 보기</a>';
-            }
-        }
-    });
+    // $('.view-img-popup').magnificPopup({
+    //     type: 'image',
+    //     closeOnContentClick: true,
+    //     mainClass: 'mfp-img-mobile',
+    //     image: {
+    //         verticalFit: true,
+    //         titleSrc: function(item) {
+    //             return '&middot; <a class="image-source-link" href="'+item.el.attr('data-source')+'" target="_blank">원본 이미지 보기</a>';
+    //         }
+    //     }
+    // });
 
-    if ($('.board-view-con img').parent().hasClass('view_image')) {
-        $('.board-view-con img').parent().attr('class', 'view-image-popup').removeAttr('target');
-        $('.view-image-popup').each(function() {
-            var dataSource = $(this).attr('href');
-            $(this).attr('data-source', dataSource);
-        });
-        $('.board-view-con img').each(function() {
-            var imgURL = $(this).attr('src');
-            $(this).parent().attr('href', imgURL);
-        });
-        $('.view-image-popup').magnificPopup({
-            type: 'image',
-            closeOnContentClick: true,
-            mainClass: 'mfp-img-mobile',
-            image: {
-                verticalFit: true,
-                titleSrc: function(item) {
-                    return '&middot; <a class="image-source-link" href="'+item.el.attr('data-source')+'" target="_blank">원본 이미지 보기</a>';
-                }
-            }
-        });
-    } else {
-        $('.board-view-con img').wrap('<a class="view-image-popup">');
-        $('.board-view-con img').each(function() {
-            var imgURL = $(this).attr('src');
-            $(this).parent().attr('href', imgURL);
-        });
-        $('.view-image-popup').magnificPopup({
-            type: 'image',
-            closeOnContentClick: true,
-            mainClass: 'mfp-img-mobile',
-            image: {
-                verticalFit: true
-            }
-        });
-    }
+    // if ($('.board-view-con img').parent().hasClass('view_image')) {
+    //     $('.board-view-con img').parent().attr('class', 'view-image-popup').removeAttr('target');
+    //     $('.view-image-popup').each(function() {
+    //         var dataSource = $(this).attr('href');
+    //         $(this).attr('data-source', dataSource);
+    //     });
+    //     $('.board-view-con img').each(function() {
+    //         var imgURL = $(this).attr('src');
+    //         $(this).parent().attr('href', imgURL);
+    //     });
+    //     $('.view-image-popup').magnificPopup({
+    //         type: 'image',
+    //         closeOnContentClick: true,
+    //         mainClass: 'mfp-img-mobile',
+    //         image: {
+    //             verticalFit: true,
+    //             titleSrc: function(item) {
+    //                 return '&middot; <a class="image-source-link" href="'+item.el.attr('data-source')+'" target="_blank">원본 이미지 보기</a>';
+    //             }
+    //         }
+    //     });
+    // } else {
+    //     $('.board-view-con img').wrap('<a class="view-image-popup">');
+    //     $('.board-view-con img').each(function() {
+    //         var imgURL = $(this).attr('src');
+    //         $(this).parent().attr('href', imgURL);
+    //     });
+    //     $('.view-image-popup').magnificPopup({
+    //         type: 'image',
+    //         closeOnContentClick: true,
+    //         mainClass: 'mfp-img-mobile',
+    //         image: {
+    //             verticalFit: true
+    //         }
+    //     });
+    // }
 
     // 이미지 리사이즈
     $(".board-view-atc").viewimageresize();

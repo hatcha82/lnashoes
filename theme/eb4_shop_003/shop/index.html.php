@@ -117,13 +117,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfff4', end
 <?php /* ---------- EB Contents 스킨 - banner slider ---------- */ ?>
 <section class="section section-06">
     <?php echo eb_contents('1550457476'); ?>
-
-</section>
-
-<section class="section section-06">
     <?php echo eb_contents('1624676602'); ?>    
 </section>
-
 
 <?php /* ---------- 최신상품 시작 - NEW ARRIVALS ---------- */ ?>
 <section class="section section-07">

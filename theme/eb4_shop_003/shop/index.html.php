@@ -117,7 +117,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfff4', end
 <?php /* ---------- EB Contents 스킨 - banner slider ---------- */ ?>
 <section class="section section-06">
     <?php echo eb_contents('1550457476'); ?>
-    <?php echo eb_slider('1547172668'); ?>   
 </section>
 
 <?php /* ---------- 최신상품 시작 - NEW ARRIVALS ---------- */ ?>
@@ -176,22 +175,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfff4', end
     </div>
 </section>
 
-<?php /* ---------- 이벤트 - 베너 EB컨텐츠 ---------- */ ?>
-<section class="section section-08">
-    <div class="container">
-    <?php echo eb_contents('1624676602'); ?>
-    <?php echo eb_contents('1624682220'); ?>
-    </div>
-</section>
-
-
 <?php /* ---------- 이벤트 - 쇼핑몰현황/기타 > 이벤트관리에서 상품 등록합니다. ---------- */ ?>
 <section class="section section-08 shop-section-event">
     <div class="container">
         <?php include_once(EYOOM_THEME_SHOP_SKIN_PATH.'/boxevent.skin.html.php'); // 이벤트 ?>
     </div>
 </section>
-
 <?php /* ---------- 이벤트박스 끝 ---------- */ ?>
 
 <?php /* ---------- 할인상품 - BARGAIN SALE ---------- */ ?>

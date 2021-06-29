@@ -174,7 +174,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfff4', end
     <?php echo eb_latest('1623652859'); ?>
     </div>
 </section>
-
+<?php /* ---------- 이벤트 - 베너 EB컨텐츠 ---------- */ ?>
+<section class="section section-08">
+    <div class="container">
+    <?php echo eb_contents('1624676602'); ?>
+    <?php echo eb_contents('1624682220'); ?>
+    </div>
+</section>
 <?php /* ---------- 이벤트 - 쇼핑몰현황/기타 > 이벤트관리에서 상품 등록합니다. ---------- */ ?>
 <section class="section section-08 shop-section-event">
     <div class="container">

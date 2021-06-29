@@ -185,8 +185,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfff4', end
 </section>
 
 
-
-
 <?php /* ---------- 이벤트 - 쇼핑몰현황/기타 > 이벤트관리에서 상품 등록합니다. ---------- */ ?>
 <section class="section section-08 shop-section-event">
     <div class="container">

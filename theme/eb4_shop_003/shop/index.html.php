@@ -177,10 +177,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfff4', end
 </section>
 
 <?php /* ---------- 이벤트 - 베너 EB컨텐츠 ---------- */ ?>
-
-<section class="section section-08">    
+<section class="section section-08">
+    <div class="container">
     <?php echo eb_contents('1624676602'); ?>
     <?php echo eb_contents('1624682220'); ?>
+    </div>
 </section>
 
 

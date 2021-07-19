@@ -36,8 +36,8 @@ if (!defined('_EYOOM_')) exit;
 .stack-latest .nav-tabs li.active a {z-index:1;background:#fff;font-weight:bold;color:#353535;border-bottom:0;padding:7px 5px 8px}
 .stack-latest .nav-tabs li .cursor-pointer:hover {cursor:pointer}
 .stack-latest .tab-content {position:relative;padding:0}
-.stack-latest .tab-pane {margin-left:-6px;margin-right:-6px}
-.gallery-item {position:relative;width:100%;padding-left:6px;padding-right:6px;float:left}
+.stack-latest. .tab-pane {margin-left:-6px;margin-right:-6px}
+.stack-latest .gallery-item {position:relative;width:100%;padding-left:6px;padding-right:6px;float:left}
 .stack-latest .gallery-img {position:relative;overflow:hidden;padding:3px;}
 .stack-latest .img-box {position:relative;overflow:hidden;width:100%;height:65px}
 .stack-latest .img-box:before {content:"";display:block;padding-top:55%}
@@ -61,14 +61,14 @@ if (!defined('_EYOOM_')) exit;
 .stack-latest .txt-info span {margin-left:5px}
 <?php if ($eyoom['is_responsive'] == '1' || G5_IS_MOBILE) { // 반응형 또는 모바일일때 ?>
 @media (max-width:1199px) {
-    .gallery-item {width:33.33333%}
+    .stack-latest .gallery-item {width:100%}
 }
 @media (max-width:500px) {
-    .gallery-item {width:50%}
+    .stack-latest .gallery-item {width:100%}
 }
 <?php } ?>
 </style>
-
+<!-- 
 <div class="headline-short">
     <h4>
         <?php if ($el_master['el_link']) { ?>
@@ -77,7 +77,7 @@ if (!defined('_EYOOM_')) exit;
         <strong><?php echo $el_master['el_subject']; ?></strong>
         <?php } ?>
     </h4>
-</div>
+</div> -->
 
 <div class="stack-latest">
     <ul class="nav nav-tabs eblatest-gallery-tabs">

@@ -39,7 +39,7 @@ if (!defined('_EYOOM_')) exit;
 .gallery-latest .tab-pane {margin-left:-6px;margin-right:-6px}
 .gallery-item {position:relative;width:100%;padding-left:6px;padding-right:6px;float:left}
 .gallery-latest .gallery-img {position:relative;overflow:hidden;padding:3px; }
-.gallery-latest .img-box {position:relative;overflow:hidden;width:100%;height:65px}
+.gallery-latest .img-box {position:relative;overflow:hidden;width:100%;}
 .gallery-latest .img-box:before {content:"";display:block;padding-top:55%}
 .gallery-latest .img-box img {position:absolute;top:0;left:0;right:0;bottom:0}
 .gallery-latest .img-box .no-image {position:absolute;top:50%;left:0;width:100%;text-align:center;margin-bottom:0;margin-top:-8px;color:#959595;font-size:11px}

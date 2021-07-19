@@ -42,6 +42,6 @@ define('G5_SOCIAL_DELETE_DAY', 0);
 define('G5_SOCIAL_CERTIFY_MAIL', false);
 
 // 소셜 DEBUG 관련 설정, 기본값은 false, true 로 설정시 data/tmp/social_anystring.log 파일이 생성됩니다.
-define('G5_SOCIAL_IS_DEBUG', false);
+define('G5_SOCIAL_IS_DEBUG', true);
 
 include_once(G5_SOCIAL_LOGIN_PATH.'/includes/functions.php');

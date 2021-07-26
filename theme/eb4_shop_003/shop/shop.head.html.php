@@ -50,7 +50,7 @@ $item_view = 'slider';
     <?php } ?>
         <?php if (defined('_INDEX_')) { ?>
         <?php /* EB 슬라이더 - banner top */ ?>
-        <?php echo eb_slider('1547172668'); ?>
+       
         <?php } ?>
     
         <?php /* header */ ?>
@@ -60,7 +60,7 @@ $item_view = 'slider';
                 <div class="topbar-left">
                     <ul class="list-unstyled theme-link">
                         <li class="active"><a href="<?php echo G5_SHOP_URL; ?>">쇼핑몰</a></li>
-                        <li><a href="<?php echo G5_URL; ?>/community.php?theme=eb4_shop_003">커뮤니티</a></li>
+                        <li><a href="<?php echo G5_URL; ?>/community.php">커뮤니티</a></li>
                         <li class=""><a href="/bbs/board.php?bo_table=contest">공모전</a></li>
                        
                     </ul>

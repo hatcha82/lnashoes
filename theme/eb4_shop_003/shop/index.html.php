@@ -154,20 +154,20 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfff4', end
 </section>
 <section class="section section-07">
     <div class="container">
-<?php    
-    echo "<div class='lt list_01' >
-            <div class='bo_name'>
-                <div style='width:100%;padding:0px;margin:0 auto;'>
-                <div id='youtube_area' style='width:100%;border:1px solid #444'>
-                    <div style='position: relative; padding-bottom: 56.25%;'>
-                    <iframe style='position: absolute; top: 0; left: 0; width: 100%; height: 100%;' 
-                        src='https://www.youtube.com/embed/adt2pu4D9Q8?autoplay=0&playsinline=1'
-                        frameborder='0' gesture='media' allow='autoplay;encrypted-media' allowfullscreen='allowfullscreen'></iframe
+    <?php    
+        echo "<div class=''>
+                <div class=''  style='margin-bottom:50px'>
+                    <div style='width:100%;padding:0px;margin:0 auto;'>
+                    <div id='youtube_area' style='width:100%;border:1px solid #444'>
+                        <div style='position: relative; padding-bottom: 56.25%;'>
+                        <iframe style='position: absolute; top: 0; left: 0; width: 100%; height: 100%;' 
+                            src='https://www.youtube.com/embed/adt2pu4D9Q8?autoplay=0&playsinline=1'
+                            frameborder='0' gesture='media' allow='autoplay;encrypted-media' allowfullscreen='allowfullscreen'></iframe
+                        </div>
                     </div>
-                </div>
-            </div> 
-        </div>"
-?>
+                </div> 
+             </div>"
+    ?>
     </div>
 </selction>
 <?php /* ---------- 이벤트 - 게시판 > 이벤트게시판에서 글을 등록합니다. ---------- */ ?>

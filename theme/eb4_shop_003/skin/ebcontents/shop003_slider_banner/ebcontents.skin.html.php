@@ -150,15 +150,15 @@ add_stylesheet('<link rel="stylesheet" href="'.EYOOM_THEME_URL.'/plugins/slick/s
 <script>
 $(window).load(function(){
     $('.ebcontents-slider-banner-inner').show();
-    $('.ebcontents-slider-banner').slick({
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        autoplay: true,
-        autoplaySpeed: 15000,//15초
-        arrows: true,
-        dots: false,
-        pauseOnHover: false,
-    });
+    // $('.ebcontents-slider-banner').slick({
+    //     slidesToShow: 1,
+    //     slidesToScroll: 1,
+    //     autoplay: true,
+    //     autoplaySpeed: 15000,//15초
+    //     arrows: true,
+    //     dots: false,
+    //     pauseOnHover: false,
+    // });
     
     $('.ebcontents-slider-banner-item').addClass('item-progress');
 });

@@ -37,46 +37,46 @@ if (!defined('_EYOOM_')) exit;
 /* master */
 .shop003-banner-bottom3 {position:relative}
 /* 컨트롤 */
-.shop003-banner-bottom .carousel-control {left:inherit;top:10px;right:0;width:65px;text-shadow:0 0 0 #fff;opacity:1}
-.shop003-banner-bottom .carousel-control a {position:relative;z-index:1;display:block;width:30px;height:30px;background:rgba(0,0,0,.5)}
-.shop003-banner-bottom .carousel-control a:hover {background:rgba(0,0,0,.9)}
-.shop003-banner-bottom .carousel-control a.control-down {margin-top:10px}
-.shop003-banner-bottom .carousel-control a.control-up:after, .shop003-banner-bottom .carousel-control a.control-down:after {content:"";display:block;position:absolute;left:7px;width:16px;height:16px;transform:rotate(-45deg)}
-.shop003-banner-bottom .carousel-control a.control-up:after {top:12px;border-top:1px solid #ddd;border-right:1px solid #ddd}
-.shop003-banner-bottom .carousel-control a.control-down:after {top:2px;border-bottom:1px solid #ddd;border-left:1px solid #ddd}
+.shop003-banner-bottom3 .carousel-control {left:inherit;top:10px;right:0;width:65px;text-shadow:0 0 0 #fff;opacity:1}
+.shop003-banner-bottom3 .carousel-control a {position:relative;z-index:1;display:block;width:30px;height:30px;background:rgba(0,0,0,.5)}
+.shop003-banner-bottom3 .carousel-control a:hover {background:rgba(0,0,0,.9)}
+.shop003-banner-bottom3 .carousel-control a.control-down {margin-top:10px}
+.shop003-banner-bottom3 .carousel-control a.control-up:after, .shop003-banner-bottom3 .carousel-control a.control-down:after {content:"";display:block;position:absolute;left:7px;width:16px;height:16px;transform:rotate(-45deg)}
+.shop003-banner-bottom3 .carousel-control a.control-up:after {top:12px;border-top:1px solid #ddd;border-right:1px solid #ddd}
+.shop003-banner-bottom3 .carousel-control a.control-down:after {top:2px;border-bottom:1px solid #ddd;border-left:1px solid #ddd}
 /* 아이템 */
-.shop003-banner-bottom .item a {display:block;cursor:pointer}
-.shop003-banner-bottom .item a:hover {}
-.shop003-banner-bottom .item a > div {height:90px;background-size:cover;background-repeat:no-repeat;background-position:center;margin-bottom:10px;}
-.shop003-banner-bottom .item a .shop003-img-mo {display:none}
+.shop003-banner-bottom3 .item a {display:block;cursor:pointer}
+.shop003-banner-bottom3 .item a:hover {}
+.shop003-banner-bottom3 .item a > div {height:90px;background-size:cover;background-repeat:no-repeat;background-position:center;margin-bottom:10px;}
+.shop003-banner-bottom3 .item a .shop003-img-mo {display:none}
 /* header slider 위아래로 이동하는 소스 */
-.shop003-banner-bottom .vertical .carousel-inner {height:100%}
-.shop003-banner-bottom .carousel.vertical .item {-webkit-transition:0.6s ease-in-out top;-moz-transition:0.6s ease-in-out top;-ms-transition:0.6s ease-in-out top;-o-transition:0.6s ease-in-out top;transition:0.6s ease-in-out top}
-.shop003-banner-bottom .carousel.vertical .active {top:0}
-.shop003-banner-bottom .carousel.vertical .next {top:90px}
-.shop003-banner-bottom .carousel.vertical .prev {top:-90px}
-.shop003-banner-bottom .carousel.vertical .next.left, .shop003-banner-bottom  .carousel.vertical .prev.right {top:0}
-.shop003-banner-bottom .carousel.vertical .active.left {top:-90px}
-.shop003-banner-bottom .carousel.vertical .active.right {top:90px}
-.shop003-banner-bottom .carousel.vertical .item {left:0}
+.shop003-banner-bottom3 .vertical .carousel-inner {height:100%}
+.shop003-banner-bottom3 .carousel.vertical .item {-webkit-transition:0.6s ease-in-out top;-moz-transition:0.6s ease-in-out top;-ms-transition:0.6s ease-in-out top;-o-transition:0.6s ease-in-out top;transition:0.6s ease-in-out top}
+.shop003-banner-bottom3 .carousel.vertical .active {top:0}
+.shop003-banner-bottom3 .carousel.vertical .next {top:90px}
+.shop003-banner-bottom3 .carousel.vertical .prev {top:-90px}
+.shop003-banner-bottom3 .carousel.vertical .next.left, .shop003-banner-bottom3  .carousel.vertical .prev.right {top:0}
+.shop003-banner-bottom3 .carousel.vertical .active.left {top:-90px}
+.shop003-banner-bottom3 .carousel.vertical .active.right {top:90px}
+.shop003-banner-bottom3 .carousel.vertical .item {left:0}
 /* 닫기버튼 */
-.shop003-banner-bottom .shop003-close {position:absolute;top:0;left:30px}
-.shop003-banner-bottom .shop003-close label {color:#ddd}
-.shop003-banner-bottom .shop003-close #sbt_close {display:inline-block;width:20px;height:20px;line-height:20px;text-align:center;color:#ddd;border:1px solid #ddd;font-size:12px;text-shadow:0 1px 0 rgba(0, 0, 0, 0.5);cursor:pointer}
+.shop003-banner-bottom3 .shop003-close {position:absolute;top:0;left:30px}
+.shop003-banner-bottom3 .shop003-close label {color:#ddd}
+.shop003-banner-bottom3 .shop003-close #sbt_close {display:inline-block;width:20px;height:20px;line-height:20px;text-align:center;color:#ddd;border:1px solid #ddd;font-size:12px;text-shadow:0 1px 0 rgba(0, 0, 0, 0.5);cursor:pointer}
 
 @media (max-width:1199px) {
-    .shop003-banner-bottom .shop003-close {top:0}
-    .shop003-banner-bottom .shop003-close .eyoom-form .checkbox {margin-bottom:0}
-    .shop003-banner-bottom .shop003-close .fa-times {width:14px;height:14px;line-height:14px;font-size:11px}
+    .shop003-banner-bottom3 .shop003-close {top:0}
+    .shop003-banner-bottom3 .shop003-close .eyoom-form .checkbox {margin-bottom:0}
+    .shop003-banner-bottom3 .shop003-close .fa-times {width:14px;height:14px;line-height:14px;font-size:11px}
 }
 @media (max-width:767px) {
-    .shop003-banner-bottom .carousel-control {width:45px}
-    .shop003-banner-bottom .shop003-close {left:15px}
+    .shop003-banner-bottom3 .carousel-control {width:45px}
+    .shop003-banner-bottom3 .shop003-close {left:15px}
 }
 
 </style>
 
-<div class="shop003-banner-bottom">
+<div class="shop003-banner-bottom3">
 	<div id="carouselBannerTop" class="carousel slide carousel-roll-left vertical" data-ride="carousel">
 	    <?php /* 콘트롤 */ ?>
 	   
@@ -137,7 +137,7 @@ if (!defined('_EYOOM_')) exit;
 <script>
 // 슬라이더 시간 설정
 $(document).ready(function(){
-	$(".shop003-banner-bottom .item").eq(0).addClass("active");
+	$(".shop003-banner-bottom3 .item").eq(0).addClass("active");
 	$("#carouselBannerTop").carousel({
         interval: 10000,
         pause: 'hover'
@@ -167,15 +167,15 @@ function bannerTopClose(){
     if($("#check_close").is(":checked") == true){
         setCookie("close","Y",1);
     }
-    $(".shop003-banner-bottom").hide();
+    $(".shop003-banner-bottom3").hide();
 }
 
 $(document).ready(function(){
     cookiedata = document.cookie;
     if(cookiedata.indexOf("close=Y")<0){
-        $(".shop003-banner-bottom").show();
+        $(".shop003-banner-bottom3").show();
     }else{
-        $(".shop003-banner-bottom").hide();
+        $(".shop003-banner-bottom3").hide();
     }
     $("#sbt_close").click(function(){
         bannerTopClose();

@@ -63,7 +63,7 @@ if (!defined('_EYOOM_')) exit;
 .shop003-banner-bottom .shop003-close {position:absolute;top:0;left:30px}
 .shop003-banner-bottom .shop003-close label {color:#ddd}
 .shop003-banner-bottom .shop003-close #sbt_close {display:inline-block;width:20px;height:20px;line-height:20px;text-align:center;color:#ddd;border:1px solid #ddd;font-size:12px;text-shadow:0 1px 0 rgba(0, 0, 0, 0.5);cursor:pointer}
-<?php if ($eyoom['is_responsive'] == '1' || G5_IS_MOBILE) { // 반응형 또는 모바일일때 ?>
+
 @media (max-width:1199px) {
     .shop003-banner-bottom .shop003-close {top:0}
     .shop003-banner-bottom .shop003-close .eyoom-form .checkbox {margin-bottom:0}
@@ -73,7 +73,7 @@ if (!defined('_EYOOM_')) exit;
     .shop003-banner-bottom .carousel-control {width:45px}
     .shop003-banner-bottom .shop003-close {left:15px}
 }
-<?php } ?>
+
 </style>
 
 <div class="shop003-banner-bottom">

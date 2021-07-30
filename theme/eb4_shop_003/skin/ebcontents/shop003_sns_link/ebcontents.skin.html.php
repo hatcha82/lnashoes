@@ -66,6 +66,7 @@ if (!defined('_EYOOM_')) exit;
 
 <div class="social-link-wrap">
     <?php /* ebcontents item */?>
+    <!--
     <?php if (is_array($contents)) { ?>
     <ul class="social-icons">
     <?php foreach ($contents as $k => $item) { ?>
@@ -75,8 +76,8 @@ if (!defined('_EYOOM_')) exit;
     <?php } ?>
     </ul>
     <?php } ?>
-
-    <?php if ($ec_default) { ?>
+    -->
+    <?php // if ($ec_default) { ?>
     <ul class="social-link-list">
         <a href="https://www.facebook.com/lnakorea"><img src="/img/sns/facebook.jpg"/></a>
         <a href="https://www.youtube.com/channel/UCAZ7C379vpprYba6CMHbviw"><img src="/img/sns/youtube.jpg"/></a>
@@ -85,6 +86,6 @@ if (!defined('_EYOOM_')) exit;
         <!-- <li class="social-link-kakao"><a href="https://story.kakao.com/ch/lnakorea"><i class="fab fa-kakako"></i></a></li> -->
         <!-- <li class="social-link-youtube"><a href=""><i class="fab fa-youtube"></i></a></li> -->
     </ul>
-    <?php } ?>
+    <?php // } ?>
 </div>
 <?php } ?>

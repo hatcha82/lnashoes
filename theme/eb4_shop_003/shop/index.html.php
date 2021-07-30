@@ -184,9 +184,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfff4', end
 </section>	
 
 <?php /* ---------- 이벤트 베너 Stack Style- 게시판 > 이벤트게시판에서 글을 등록합니다. ---------- */ ?>
-<?php echo eb_slider('1627613260'); ?>
-<?php echo eb_slider('1627624972'); ?>
-<?php echo eb_slider('1627625004'); ?>
+<section class="section section-08">
+<div class="container">
+    <?php echo eb_slider('1627613260'); ?>
+    <?php echo eb_slider('1627624972'); ?>
+    <?php echo eb_slider('1627625004'); ?>
+    </div>
+</section>
 
 <!-- 
 <?php /* ---------- 이벤트 - 쇼핑몰현황/기타 > 이벤트관리에서 상품 등록합니다. ---------- */ ?>

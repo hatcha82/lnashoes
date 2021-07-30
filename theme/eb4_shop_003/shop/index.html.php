@@ -184,6 +184,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfff4', end
 </section>	
 
 <!-- <?php echo eb_contents('1624676602'); ?> -->
+
+<!-- 
 <?php /* ---------- 이벤트 - 쇼핑몰현황/기타 > 이벤트관리에서 상품 등록합니다. ---------- */ ?>
 <section class="section section-08 shop-section-event">
     <div class="container">
@@ -191,6 +193,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfff4', end
     </div>
 </section>
 <?php /* ---------- 이벤트박스 끝 ---------- */ ?>
+-->
+
 
 <?php /* ---------- 할인상품 - BARGAIN SALE ---------- */ ?>
 <section class="section section-09">

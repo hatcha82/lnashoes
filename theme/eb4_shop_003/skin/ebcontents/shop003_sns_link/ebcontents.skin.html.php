@@ -43,7 +43,7 @@ if (!defined('_EYOOM_')) exit;
 <style>
 .social-link-wrap {position:relative}
 .social-link-wrap .social-link-list {display:flex;justify-content:start;margin:0 0 20px 0;padding:0;list-style:none}
-.social-link-wrap .social-link-list img{margin:0 10px;}
+.social-link-wrap .social-link-list img{margin:0 5px;}
 .social-link-wrap .social-link-list li {margin:0 10px 0 0}
 .social-link-wrap .social-link-list li a {display:block;width:40px;height;40px;line-height:40px;text-align:center;font-size:22px;background:#bbb;color:#707070}
 .social-link-wrap .social-link-list li a:hover {color:#fff;background:#1b1b1b}

@@ -47,7 +47,7 @@ if (!defined('_EYOOM_')) exit;
 /* 아이템 */
 .shop003-banner-bottom .item a {display:block;cursor:pointer}
 .shop003-banner-bottom .item a:hover {}
-.shop003-banner-bottom .item a > div {height:90px;background-size:cover;background-repeat:no-repeat;background-position:center;margin-bottom:10px;}
+.shop003-banner-bottom .item a > div {height:90px;background-size:cover;background-repeat:no-repeat;background-position:center;margin-bottom:20px;}
 .shop003-banner-bottom .item a .shop003-img-mo {display:none}
 /* header slider 위아래로 이동하는 소스 */
 .shop003-banner-bottom .vertical .carousel-inner {height:100%}

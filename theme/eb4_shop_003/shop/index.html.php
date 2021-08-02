@@ -156,7 +156,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfff4', end
 <div class="container">
 <?php    
     echo "<div class=''>
-            <div class=''  style='margin-bottom:50px'>
+            <div class=''  style='margin-bottom:20px'>
                 <div style='width:100%;padding:0px;margin:0 auto;'>
                 <div id='youtube_area' style='width:100%;border:1px solid #444'>
                     <div style='position: relative; padding-bottom: 56.25%;'>

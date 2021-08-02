@@ -169,7 +169,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfff4', end
             </div>"
 ?>
 </div>
-
+<?php /* ---------- 공모전 베너  EB Slider---------- */ ?>
+<div class="">
+    <?php echo eb_slider('1627873999'); ?>
+</div>
 <?php /* ---------- 이벤트 - 게시판 > 이벤트게시판에서 글을 등록합니다. ---------- */ ?>
 
 <div class="">
@@ -183,7 +186,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfff4', end
 </div>
 
 
-<?php /* ---------- 이벤트 베너 Stack Style- 게시판 > 이벤트게시판에서 글을 등록합니다. ---------- */ ?>
+<?php /* ---------- 이벤트 베너 Stack Style- EB Slider---------- */ ?>
 
 <div class="">
     <?php echo eb_slider('1627613260'); ?>

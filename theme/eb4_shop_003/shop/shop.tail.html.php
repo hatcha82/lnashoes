@@ -117,11 +117,16 @@ if (!defined('_EYOOM_')) exit;
                             <div class="footer-box">
                                 <h4>INFORMATION</h4>
                                 <ul class="list-unstyled">
-                                    <li><a href="<?php echo get_eyoom_pretty_url('page','provision'); ?>">이용약관</a></li>
-                                    <li><a href="<?php echo get_eyoom_pretty_url('page','privacy'); ?>">개인정보처리방침</a></li>
+                                    <li><a href="/bbs/content.php?co_id=provision">이용약관</a></li>
+                                    <li><a href="/bbs/content.php?co_id=privacy">개인정보처리방침</a></li>
                                     <li><a href="<?php echo get_eyoom_pretty_url('page','noemail'); ?>">이메일무단수집거부</a></li>
                                     <li><a href="<?php echo G5_BBS_URL; ?>/faq.php">FAQ</a></li>
                                     <li><a href="<?php echo G5_BBS_URL; ?>/qalist.php">1:1문의</a></li>
+                                    <!-- <li><a href="<?php echo get_eyoom_pretty_url('page','provision'); ?>">이용약관</a></li>
+                                    <li><a href="<?php echo get_eyoom_pretty_url('page','privacy'); ?>">개인정보처리방침</a></li>
+                                    <li><a href="<?php echo get_eyoom_pretty_url('page','noemail'); ?>">이메일무단수집거부</a></li>
+                                    <li><a href="<?php echo G5_BBS_URL; ?>/faq.php">FAQ</a></li>
+                                    <li><a href="<?php echo G5_BBS_URL; ?>/qalist.php">1:1문의</a></li> -->
                                 </ul>
                             </div>
                         </div>

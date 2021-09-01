@@ -12,7 +12,7 @@ add_stylesheet('<link rel="stylesheet" href="'.EYOOM_THEME_URL.'/plugins/sweetal
 .member-skin {font-size:12px}
 .member-skin .content-box {border-color:#b5b5b5}
 .member-skin #register_scroll_1 {position:relative;overflow:hidden;height:250px;white-space: pre-wrap}
-.member-skin #register_scroll_2 {position:relative;overflow:hidden;height:250px}
+.member-skin #register_scroll_2 {position:relative;overflow:hidden;height:250px;white-space: pre-wrap}
 .member-skin .member-box {border:1px solid #ddd;margin-bottom:30px}
 .member-skin .eyoom-form header {padding:15px;background:#fafafa}
 .member-skin .eyoom-form footer {padding:10px 15px;text-align:right}
@@ -65,7 +65,8 @@ add_stylesheet('<link rel="stylesheet" href="'.EYOOM_THEME_URL.'/plugins/sweetal
         <header><h5 class="margin-0"><strong>개인정보처리방침안내</strong></h5></header>
         <div class="member-agree">
             <div id="register_scroll_2" class="panel-body ps-container">
-                <div class="table-list-eb">
+<?php echo $config['cf_privacy'] ?>
+                <!-- <div class="table-list-eb">
                     <div class="table-responsive">
                         <table class="table table-bordered">
                             <thead>
@@ -89,7 +90,7 @@ add_stylesheet('<link rel="stylesheet" href="'.EYOOM_THEME_URL.'/plugins/sweetal
                             </tbody>
                         </table>
                     </div>
-                </div>
+                </div> -->
             </div>
         </div>
         <footer>

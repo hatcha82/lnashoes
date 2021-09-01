@@ -11,7 +11,7 @@ add_stylesheet('<link rel="stylesheet" href="'.EYOOM_THEME_URL.'/plugins/sweetal
 <style>
 .member-skin {font-size:12px}
 .member-skin .content-box {border-color:#b5b5b5}
-.member-skin #register_scroll_1 {position:relative;overflow:hidden;height:250px}
+.member-skin #register_scroll_1 {position:relative;overflow:hidden;height:250px;white-space: pre-wrap}
 .member-skin #register_scroll_2 {position:relative;overflow:hidden;height:250px}
 .member-skin .member-box {border:1px solid #ddd;margin-bottom:30px}
 .member-skin .eyoom-form header {padding:15px;background:#fafafa}
@@ -49,9 +49,7 @@ add_stylesheet('<link rel="stylesheet" href="'.EYOOM_THEME_URL.'/plugins/sweetal
         <header><h5 class="margin-0"><strong>회원가입약관</strong></h5></header>
         <div class="member-agree">
             <div id="register_scroll_1" class="panel-body ps-container">
-                <?php
-                @include_once(EYOOM_THEME_PATH . '/page/provision.html.php')
-                ?>
+<?php echo $config['cf_stipulation'] ?> 
             </div>
         </div>
         <footer>

@@ -84,6 +84,7 @@ if (!defined('_EYOOM_')) exit;
         <a target="_blank" href="https://www.youtube.com/channel/UCAZ7C379vpprYba6CMHbviw"><img src="/img/sns/youtube.jpg"/></a>
         <a target="_blank" href="https://www.instagram.com/lnakorea/"><img src="/img/sns/instar.jpg"/></a>
         <a target="_blank"href="https://blog.naver.com/lnamall"><img src="/img/sns/naver.jpg"/></a>
+        <a target="_blank"href="https://pf.kakao.com/_psAAj"><img src="/img/sns/kakao.jpg"/></a>
         <!-- <li class="social-link-kakao"><a href="https://story.kakao.com/ch/lnakorea"><i class="fab fa-kakako"></i></a></li> -->
         <!-- <li class="social-link-youtube"><a href=""><i class="fab fa-youtube"></i></a></li> -->
     </ul>
